@@ -1,0 +1,364 @@
+.header{
+  height:486px;
+  width: 100%;
+  background-image: url("pexels-dila-e-2831565-27198641.jpg");
+ background-size: 707px;
+background-repeat:no-repeat;
+margin-top: 33px;
+position:static;
+margin-left: -9px; 
+}
+
+
+
+
+.h1{
+ color:rgb(48, 44, 40);      
+background-color: #157be1;
+border: 10px solid red;
+border-radius:20px; 
+width: 200px;
+text-align: center;
+display: inline;
+
+    }
+    
+
+.h2{
+    color: rgb(2, 236, 10);background-color:#5d00ff;
+    width: 100px;
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    display: inline;
+    border-right: 10px;
+    padding: 4px 9px 5px 6px;
+  
+   }
+
+
+#headone{
+    color: rgb(8, 255, 103);background-color:rgb(8, 178, 246);
+    border: 10px solid rgb(243, 8, 227);
+    border-radius: 100px;
+    margin-left: 160px;
+    margin-top: 7px;
+    margin-bottom: 60px;
+    padding: 53px 17px 19px 24px ;
+    width: 609px;
+    height: 98PX;
+    outline:10px #0873de;
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-color:rgb(131 91 221);
+    text-decoration-style:solid;
+    word-spacing: 10px;
+    text-decoration-thickness: 3px;
+    text-transform: uppercase;
+    font:  italic small-caps bold 23px/255px "Brush Script MT",cursive;
+    text-shadow: -2px -1px;
+    letter-spacing: 10px;
+    line-height: 30px;
+    opacity: 225.3;
+    }
+/* Our css class */
+
+     body{  
+       background-color: rgb(255 255 255);
+ 
+       background-image: url(css/k.zzaman.jpg);
+         
+       background-repeat: no-repeat;
+ 
+       background-attachment: fixed;
+       
+       background-size:cover;
+ 
+       }
+     
+       #headtwo{
+        border: 2px solid black;
+        outline: #4CAF50 solid 10px;
+        margin: auto;  
+        padding: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 3px red;
+        opacity: 225.3;
+        margin-top: 50px;
+      }
+#headingthree{
+    color: rgb(241, 12, 12);
+     background-color: rgb(0, 202, 216);
+     border-radius: 10px;
+    text-indent: 50px;
+    text-transform: uppercase;
+    letter-spacing:3px;
+    line-height:30px;
+    word-spacing:20px;
+    white-space :unset;  
+    text-shadow: 2px 2px 3px rgb(15, 245, 138);
+ 
+    }
+     
+    #one{
+     color: #000000;  
+     background-color: aqua;
+     font:italic  small-caps bold 23px/100px "Brush Script MT",cursive ;
+     word-spacing: 5px;
+    text-decoration:none;
+    padding: 10px 10px 10px 10px;
+    border-radius:10px ;
+    border: 10px solid red;
+    transition-duration: 2s;
+    cursor: pointer;
+    
+   }
+ /* unvisited link */
+.one:link {
+    color: red;
+  }
+  
+  /* visited link */
+  .one:visited {
+    color: rgb(0, 219, 0);
+  }
+  
+  /* mouse over link */
+  .one:hover {
+    color: hotpink;
+    background-color:brown;
+  }
+  
+  /* selected link */
+  .one:active {
+    color: rgb(255, 0, 251);
+  }
+ 
+  ul{
+    list-style-type: square;
+  }
+
+ol{
+    list-style-type: lower-latin;
+}
+
+table,tr ,th,td {
+    border: 5px solid rgb(0, 8, 255);
+    text-align: center;
+   }
+   
+  
+ #tttt tr:hover{background-color: #02d1ff;color: #ff0000;}
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+th{ 
+    height: 85px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    border: 5px solid rgb(255, 0, 225);
+}
+tr{
+   height:  60px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 30px;
+}
+
+tr:nth-child(even) {background-color: #f0b3b3;}
+tr:nth-child(odd) {background-color: #5be6ff;}
+td,tr{ 
+    border:5px solid #ffc800;
+}
+
+span{
+  display:inline-flexbox;
+margin-bottom: 10px;
+} 
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+z-index:  1; 
+margin-top:100px;
+margin-bottom:100px;
+margin-left: 100px;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+  left:0px ;
+  position:sticky ;
+}
+.box{
+  border:3px solid #07a41e ;
+  position:relative ;
+  color: #000000;background-color: #ff0000;
+  position:fixed ; 
+  top: 0px;
+  width: 100%;
+  text-align: center;
+ text-transform: uppercase;
+ font-size: 30px;
+ z-index: 1;
+ margin-left: -9px;
+ }
+
+ #headfive{
+  color: #4CAF50;
+  top:0px;
+  position: absolute;
+  z-index: 2;
+  position: fixed;
+ }
+
+ #headsix{
+  background-color: coral;
+  width: 292px;
+  height: 142px;
+  border: 1px solid;
+  overflow: overlay;
+
+ }
+
+
+ button {
+  font-size: 15px;
+  padding: 15px 15px;
+}
+
+
+
+
+i:nth-child(4) {
+  background-color: yellow;
+}
+div::selection {
+  color: red;
+  background: yellow;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #0091ff;
+}
+
+
+@media  screen and (max-width: 600px) {
+  body {
+      background-color: rgb(16, 161, 210);
+    }
+  }
+
+.flex {
+  border: 3px solid rgb(0, 102, 255);
+  height: 300px;
+  display:flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+ align-items:  center;
+  justify-content: space-around;
+flex-flow: row wrap;
+
+}
+
+.flex-item-one{
+  background-color: #07a41e;
+  width: 50px;
+  height: 50px;
+}
+
+.flex-item-two{
+  background-color: #ff0000;
+  width: 50px;
+  height: 50px;
+}
+
+.flex-item-three{
+  background-color: #ffc800;
+  width: 50px;
+  height: 50px;
+}
+
+.flex-item-four{
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+}
+.flex-item{
+  width: 100px;
+  height: 100px;
+}
+
+img{
+  width: 30%;
+  height:30% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
